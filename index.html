@@ -3,11 +3,19 @@
  <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width,initial-scale=1" name="viewport"/>
-  <meta content="Shiva — Cloud and Platform Engineer. Azure, Terraform, Kubernetes and infrastructure automation projects." name="description"/>
+  <meta content="Shiva Kouchakpour — Senior Cloud and Platform Engineer. Azure, Terraform, Kubernetes and infrastructure automation projects." name="description"/>
   <title>
-   Cloud &amp; Platform Engineer | Shiva
+   Shiva Kouchakpour | Senior Cloud and Platform Engineer
   </title>
   <link href="style.css" rel="stylesheet"/>
+  <style>
+   header .brand { flex-wrap: wrap; row-gap: 0; min-width: 0; }
+   header .brand-sub { flex-basis: 100%; padding-left: 40px; }
+   header nav { flex-shrink: 0; }
+   @media (min-width: 551px) and (max-width: 1000px) {
+    header { flex-wrap: wrap; gap: 20px; }
+   }
+  </style>
  </head>
  <body class="home-dark">
   <a class="skip" href="#main">
@@ -18,9 +26,9 @@
     <span class="mark">
      S.
     </span>
-    Shiva
+    Shiva Kouchakpour
     <span class="brand-sub">
-     / cloud &amp; platform
+     / Senior Cloud and Platform Engineer
     </span>
    </a>
    <nav aria-label="Main navigation">
@@ -55,7 +63,7 @@
       </em>
      </h1>
      <p class="lead">
-      I'm Shiva, a Cloud &amp; Platform Engineer turning infrastructure into repeatable deployments, practical automation, and reliable application platforms.
+      I'm Shiva Kouchakpour, a Senior Cloud and Platform Engineer turning infrastructure into repeatable deployments, practical automation, and reliable application platforms.
      </p>
      <p class="meta">
       TORONTO, CANADA
@@ -132,7 +140,7 @@
          Terraform &amp; Infrastructure as Code
         </strong>
         <span>
-         Reusable modules and application environments. · 3 projects
+         Reusable modules, automated infrastructure and application environments. · 4 projects
         </span>
        </span>
        <span aria-hidden="true" class="category-arrow">
@@ -140,6 +148,14 @@
        </span>
       </summary>
       <div class="category-projects">
+       <article>
+        <div>
+         <div class="eyebrow">FEATURED PROJECT</div>
+         <h3><a href="projects/app-service-scaling.html">App Service Plan scaling automation</a></h3>
+         <p>Modular Terraform provisions Azure Automation, runbooks, metric alerts and action groups, supported by remote state, GitHub Actions plan/apply/destroy workflows and Docker-based Python deployment verification.</p>
+        </div>
+        <a class="text-link" href="projects/app-service-scaling.html">Explore project ↗</a>
+       </article>
        <article>
         <div>
          <h3>
@@ -283,7 +299,7 @@
           </a>
          </h3>
          <p>
-          Azure Monitor alerts and PowerShell runbooks for capacity changes.
+          Azure Monitor alerts trigger PowerShell runbooks with cooldowns, tag-based selection and checks for supported SKU transitions.
          </p>
         </div>
         <a class="text-link" href="projects/app-service-scaling.html">
@@ -311,7 +327,7 @@
   </main>
   <footer>
    <span>
-    Shiva · Cloud &amp; Platform Engineer
+    Shiva Kouchakpour · Senior Cloud and Platform Engineer
    </span>
    <a href="https://github.com/shivakpkp">
     Explore my GitHub ↗
